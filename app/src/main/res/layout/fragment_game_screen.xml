@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEAEA"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingBottom="32dp">
+
+    <com.aksenov.swiper.views.SwipeView
+        android:id="@+id/swipe_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/swipe_view_background_loading"
+        android:clipChildren="false"/>
+
+</FrameLayout>

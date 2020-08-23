@@ -1,0 +1,13 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="#FFFFFF" />
+            <corners android:radius="18dp" />
+        </shape>
+    </item>
+    <item
+        android:width="72dp"
+        android:height="72dp"
+        android:drawable="@drawable/waiting"
+        android:gravity="center" />
+</layer-list>
